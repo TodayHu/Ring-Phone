@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B28240A1AA32BF700F78879 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2824091AA32BF700F78879 /* AppDelegate.swift */; };
+		8B28240C1AA32BF700F78879 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B28240B1AA32BF700F78879 /* ViewController.swift */; };
+		8B28240F1AA32BF700F78879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B28240D1AA32BF700F78879 /* Main.storyboard */; };
+		8B2824111AA32BF700F78879 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2824101AA32BF700F78879 /* Images.xcassets */; };
+		8B2824141AA32BF700F78879 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B2824121AA32BF700F78879 /* LaunchScreen.xib */; };
+		8B2824201AA32BF700F78879 /* Ring_PhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B28241F1AA32BF700F78879 /* Ring_PhoneTests.swift */; };
+		8B2824321AA32C1C00F78879 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2824311AA32C1C00F78879 /* InterfaceController.swift */; };
+		8B2824341AA32C1C00F78879 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2824331AA32C1C00F78879 /* Images.xcassets */; };
+		8B2824381AA32C1C00F78879 /* Ring Phone WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 8B2824371AA32C1C00F78879 /* Ring Phone WatchKit App.app */; };
+		8B2824401AA32C1C00F78879 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B28243E1AA32C1C00F78879 /* Interface.storyboard */; };
+		8B2824421AA32C1C00F78879 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2824411AA32C1C00F78879 /* Images.xcassets */; };
+		8B2824451AA32C1C00F78879 /* Ring Phone WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8B28242D1AA32C1C00F78879 /* Ring Phone WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B28241A1AA32BF700F78879 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B2823FC1AA32BF700F78879 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B2824031AA32BF700F78879;
+			remoteInfo = "Ring Phone";
+		};
+		8B2824391AA32C1C00F78879 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B2823FC1AA32BF700F78879 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B2824361AA32C1C00F78879;
+			remoteInfo = "Ring Phone WatchKit App";
+		};
+		8B2824431AA32C1C00F78879 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B2823FC1AA32BF700F78879 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B28242C1AA32C1C00F78879;
+			remoteInfo = "Ring Phone WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8B28244C1AA32C1C00F78879 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8B2824451AA32C1C00F78879 /* Ring Phone WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8B2824041AA32BF700F78879 /* Ring Phone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ring Phone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2824081AA32BF700F78879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B2824091AA32BF700F78879 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B28240B1AA32BF700F78879 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B28240E1AA32BF700F78879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B2824101AA32BF700F78879 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8B2824131AA32BF700F78879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8B2824191AA32BF700F78879 /* Ring PhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ring PhoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B28241E1AA32BF700F78879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B28241F1AA32BF700F78879 /* Ring_PhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ring_PhoneTests.swift; sourceTree = "<group>"; };
+		8B28242D1AA32C1C00F78879 /* Ring Phone WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Ring Phone WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2824301AA32C1C00F78879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B2824311AA32C1C00F78879 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		8B2824331AA32C1C00F78879 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8B2824371AA32C1C00F78879 /* Ring Phone WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ring Phone WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B28243D1AA32C1C00F78879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B28243F1AA32C1C00F78879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8B2824411AA32C1C00F78879 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B2824011AA32BF700F78879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2824161AA32BF700F78879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B28242A1AA32C1C00F78879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B2823FB1AA32BF700F78879 = {
+			isa = PBXGroup;
+			children = (
+				8B2824061AA32BF700F78879 /* Ring Phone */,
+				8B28241C1AA32BF700F78879 /* Ring PhoneTests */,
+				8B28242E1AA32C1C00F78879 /* Ring Phone WatchKit Extension */,
+				8B28243B1AA32C1C00F78879 /* Ring Phone WatchKit App */,
+				8B2824051AA32BF700F78879 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B2824051AA32BF700F78879 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B2824041AA32BF700F78879 /* Ring Phone.app */,
+				8B2824191AA32BF700F78879 /* Ring PhoneTests.xctest */,
+				8B28242D1AA32C1C00F78879 /* Ring Phone WatchKit Extension.appex */,
+				8B2824371AA32C1C00F78879 /* Ring Phone WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B2824061AA32BF700F78879 /* Ring Phone */ = {
+			isa = PBXGroup;
+			children = (
+				8B2824091AA32BF700F78879 /* AppDelegate.swift */,
+				8B28240B1AA32BF700F78879 /* ViewController.swift */,
+				8B28240D1AA32BF700F78879 /* Main.storyboard */,
+				8B2824101AA32BF700F78879 /* Images.xcassets */,
+				8B2824121AA32BF700F78879 /* LaunchScreen.xib */,
+				8B2824071AA32BF700F78879 /* Supporting Files */,
+			);
+			path = "Ring Phone";
+			sourceTree = "<group>";
+		};
+		8B2824071AA32BF700F78879 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B2824081AA32BF700F78879 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B28241C1AA32BF700F78879 /* Ring PhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B28241F1AA32BF700F78879 /* Ring_PhoneTests.swift */,
+				8B28241D1AA32BF700F78879 /* Supporting Files */,
+			);
+			path = "Ring PhoneTests";
+			sourceTree = "<group>";
+		};
+		8B28241D1AA32BF700F78879 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B28241E1AA32BF700F78879 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B28242E1AA32C1C00F78879 /* Ring Phone WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8B2824311AA32C1C00F78879 /* InterfaceController.swift */,
+				8B2824331AA32C1C00F78879 /* Images.xcassets */,
+				8B28242F1AA32C1C00F78879 /* Supporting Files */,
+			);
+			path = "Ring Phone WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		8B28242F1AA32C1C00F78879 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B2824301AA32C1C00F78879 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B28243B1AA32C1C00F78879 /* Ring Phone WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				8B28243E1AA32C1C00F78879 /* Interface.storyboard */,
+				8B2824411AA32C1C00F78879 /* Images.xcassets */,
+				8B28243C1AA32C1C00F78879 /* Supporting Files */,
+			);
+			path = "Ring Phone WatchKit App";
+			sourceTree = "<group>";
+		};
+		8B28243C1AA32C1C00F78879 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B28243D1AA32C1C00F78879 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B2824031AA32BF700F78879 /* Ring Phone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2824231AA32BF700F78879 /* Build configuration list for PBXNativeTarget "Ring Phone" */;
+			buildPhases = (
+				8B2824001AA32BF700F78879 /* Sources */,
+				8B2824011AA32BF700F78879 /* Frameworks */,
+				8B2824021AA32BF700F78879 /* Resources */,
+				8B28244C1AA32C1C00F78879 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B2824441AA32C1C00F78879 /* PBXTargetDependency */,
+			);
+			name = "Ring Phone";
+			productName = "Ring Phone";
+			productReference = 8B2824041AA32BF700F78879 /* Ring Phone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B2824181AA32BF700F78879 /* Ring PhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2824261AA32BF700F78879 /* Build configuration list for PBXNativeTarget "Ring PhoneTests" */;
+			buildPhases = (
+				8B2824151AA32BF700F78879 /* Sources */,
+				8B2824161AA32BF700F78879 /* Frameworks */,
+				8B2824171AA32BF700F78879 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B28241B1AA32BF700F78879 /* PBXTargetDependency */,
+			);
+			name = "Ring PhoneTests";
+			productName = "Ring PhoneTests";
+			productReference = 8B2824191AA32BF700F78879 /* Ring PhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B28242C1AA32C1C00F78879 /* Ring Phone WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2824491AA32C1C00F78879 /* Build configuration list for PBXNativeTarget "Ring Phone WatchKit Extension" */;
+			buildPhases = (
+				8B2824291AA32C1C00F78879 /* Sources */,
+				8B28242A1AA32C1C00F78879 /* Frameworks */,
+				8B28242B1AA32C1C00F78879 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B28243A1AA32C1C00F78879 /* PBXTargetDependency */,
+			);
+			name = "Ring Phone WatchKit Extension";
+			productName = "Ring Phone WatchKit Extension";
+			productReference = 8B28242D1AA32C1C00F78879 /* Ring Phone WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		8B2824361AA32C1C00F78879 /* Ring Phone WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B2824461AA32C1C00F78879 /* Build configuration list for PBXNativeTarget "Ring Phone WatchKit App" */;
+			buildPhases = (
+				8B2824351AA32C1C00F78879 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ring Phone WatchKit App";
+			productName = "Ring Phone WatchKit App";
+			productReference = 8B2824371AA32C1C00F78879 /* Ring Phone WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B2823FC1AA32BF700F78879 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Andrei Joghiu";
+				TargetAttributes = {
+					8B2824031AA32BF700F78879 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					8B2824181AA32BF700F78879 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 8B2824031AA32BF700F78879;
+					};
+					8B28242C1AA32C1C00F78879 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					8B2824361AA32C1C00F78879 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 8B2823FF1AA32BF700F78879 /* Build configuration list for PBXProject "Ring Phone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B2823FB1AA32BF700F78879;
+			productRefGroup = 8B2824051AA32BF700F78879 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B2824031AA32BF700F78879 /* Ring Phone */,
+				8B2824181AA32BF700F78879 /* Ring PhoneTests */,
+				8B28242C1AA32C1C00F78879 /* Ring Phone WatchKit Extension */,
+				8B2824361AA32C1C00F78879 /* Ring Phone WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B2824021AA32BF700F78879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B28240F1AA32BF700F78879 /* Main.storyboard in Resources */,
+				8B2824141AA32BF700F78879 /* LaunchScreen.xib in Resources */,
+				8B2824111AA32BF700F78879 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2824171AA32BF700F78879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B28242B1AA32C1C00F78879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2824381AA32C1C00F78879 /* Ring Phone WatchKit App.app in Resources */,
+				8B2824341AA32C1C00F78879 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2824351AA32C1C00F78879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2824401AA32C1C00F78879 /* Interface.storyboard in Resources */,
+				8B2824421AA32C1C00F78879 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B2824001AA32BF700F78879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B28240C1AA32BF700F78879 /* ViewController.swift in Sources */,
+				8B28240A1AA32BF700F78879 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2824151AA32BF700F78879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2824201AA32BF700F78879 /* Ring_PhoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B2824291AA32C1C00F78879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2824321AA32C1C00F78879 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B28241B1AA32BF700F78879 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B2824031AA32BF700F78879 /* Ring Phone */;
+			targetProxy = 8B28241A1AA32BF700F78879 /* PBXContainerItemProxy */;
+		};
+		8B28243A1AA32C1C00F78879 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B2824361AA32C1C00F78879 /* Ring Phone WatchKit App */;
+			targetProxy = 8B2824391AA32C1C00F78879 /* PBXContainerItemProxy */;
+		};
+		8B2824441AA32C1C00F78879 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B28242C1AA32C1C00F78879 /* Ring Phone WatchKit Extension */;
+			targetProxy = 8B2824431AA32C1C00F78879 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B28240D1AA32BF700F78879 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B28240E1AA32BF700F78879 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B2824121AA32BF700F78879 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B2824131AA32BF700F78879 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		8B28243E1AA32C1C00F78879 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B28243F1AA32C1C00F78879 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B2824211AA32BF700F78879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B2824221AA32BF700F78879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B2824241AA32BF700F78879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "Ring Phone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B2824251AA32BF700F78879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "Ring Phone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B2824271AA32BF700F78879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Ring PhoneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ring Phone.app/Ring Phone";
+			};
+			name = Debug;
+		};
+		8B2824281AA32BF700F78879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Ring PhoneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ring Phone.app/Ring Phone";
+			};
+			name = Release;
+		};
+		8B2824471AA32C1C00F78879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Ring_Phone_WatchKit_Extension;
+				INFOPLIST_FILE = "Ring Phone WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		8B2824481AA32C1C00F78879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Ring_Phone_WatchKit_Extension;
+				INFOPLIST_FILE = "Ring Phone WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		8B28244A1AA32C1C00F78879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Ring Phone WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8B28244B1AA32C1C00F78879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Ring Phone WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B2823FF1AA32BF700F78879 /* Build configuration list for PBXProject "Ring Phone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2824211AA32BF700F78879 /* Debug */,
+				8B2824221AA32BF700F78879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B2824231AA32BF700F78879 /* Build configuration list for PBXNativeTarget "Ring Phone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2824241AA32BF700F78879 /* Debug */,
+				8B2824251AA32BF700F78879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B2824261AA32BF700F78879 /* Build configuration list for PBXNativeTarget "Ring PhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2824271AA32BF700F78879 /* Debug */,
+				8B2824281AA32BF700F78879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B2824461AA32C1C00F78879 /* Build configuration list for PBXNativeTarget "Ring Phone WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2824471AA32C1C00F78879 /* Debug */,
+				8B2824481AA32C1C00F78879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B2824491AA32C1C00F78879 /* Build configuration list for PBXNativeTarget "Ring Phone WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B28244A1AA32C1C00F78879 /* Debug */,
+				8B28244B1AA32C1C00F78879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B2823FC1AA32BF700F78879 /* Project object */;
+}

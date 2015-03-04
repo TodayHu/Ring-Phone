@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7515.2" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7512"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Ring_Phone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,11 +17,150 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap on the Watch button" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fsn-j2-vKV">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Paa-xc-Vdh">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="37" y="36" width="0.0" height="0.0"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ring My Phone" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XVD-K2-c5g">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="And the phone rings !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldi-0f-68M">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 1.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kV-7g-Vmt">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ring Button pressed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0RN-1d-vQn">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stop Button pressed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UKa-kj-ipz">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4kV-7g-Vmt" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="50u-gq-sQ5"/>
+                            <constraint firstItem="fsn-j2-vKV" firstAttribute="top" secondItem="XVD-K2-c5g" secondAttribute="bottom" constant="79" id="94Y-Os-aWo"/>
+                            <constraint firstItem="XVD-K2-c5g" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="9Og-Bx-d1n"/>
+                            <constraint firstItem="ldi-0f-68M" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Aai-3Z-mYU"/>
+                            <constraint firstItem="XVD-K2-c5g" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Ji4-wB-MpE"/>
+                            <constraint firstItem="XVD-K2-c5g" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="LJm-4u-tXc"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="4kV-7g-Vmt" secondAttribute="bottom" constant="50" id="Ml9-BK-Pwn"/>
+                            <constraint firstItem="fsn-j2-vKV" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="P9R-8R-Qca"/>
+                            <constraint firstItem="0RN-1d-vQn" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="QmH-Bv-p7Z"/>
+                            <constraint firstItem="0RN-1d-vQn" firstAttribute="top" secondItem="ldi-0f-68M" secondAttribute="bottom" constant="79" id="TEL-Ac-ZgN"/>
+                            <constraint firstItem="XVD-K2-c5g" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="50" id="VCf-ON-VS1">
+                                <variation key="heightClass=regular-widthClass=compact" constant="50"/>
+                            </constraint>
+                            <constraint firstItem="UKa-kj-ipz" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="WyF-Vi-cac"/>
+                            <constraint firstItem="ldi-0f-68M" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="ej0-Vz-2LC"/>
+                            <constraint firstItem="ldi-0f-68M" firstAttribute="top" secondItem="fsn-j2-vKV" secondAttribute="bottom" constant="15" id="f1V-MO-ulX"/>
+                            <constraint firstItem="UKa-kj-ipz" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="hG4-hq-tNO"/>
+                            <constraint firstItem="0RN-1d-vQn" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="mZQ-2z-ahP"/>
+                            <constraint firstItem="4kV-7g-Vmt" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="pyT-Xz-uxU"/>
+                            <constraint firstItem="UKa-kj-ipz" firstAttribute="top" secondItem="0RN-1d-vQn" secondAttribute="bottom" constant="18" id="vUx-Km-HJ5"/>
+                            <constraint firstItem="fsn-j2-vKV" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="zsE-1e-X48"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="fsn-j2-vKV"/>
+                                <exclude reference="Paa-xc-Vdh"/>
+                                <exclude reference="XVD-K2-c5g"/>
+                                <exclude reference="ldi-0f-68M"/>
+                                <exclude reference="4kV-7g-Vmt"/>
+                                <exclude reference="0RN-1d-vQn"/>
+                                <exclude reference="UKa-kj-ipz"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="9Og-Bx-d1n"/>
+                                <exclude reference="Ji4-wB-MpE"/>
+                                <exclude reference="LJm-4u-tXc"/>
+                                <exclude reference="VCf-ON-VS1"/>
+                                <exclude reference="94Y-Os-aWo"/>
+                                <exclude reference="P9R-8R-Qca"/>
+                                <exclude reference="zsE-1e-X48"/>
+                                <exclude reference="Aai-3Z-mYU"/>
+                                <exclude reference="ej0-Vz-2LC"/>
+                                <exclude reference="f1V-MO-ulX"/>
+                                <exclude reference="QmH-Bv-p7Z"/>
+                                <exclude reference="TEL-Ac-ZgN"/>
+                                <exclude reference="mZQ-2z-ahP"/>
+                                <exclude reference="WyF-Vi-cac"/>
+                                <exclude reference="hG4-hq-tNO"/>
+                                <exclude reference="vUx-Km-HJ5"/>
+                                <exclude reference="50u-gq-sQ5"/>
+                                <exclude reference="pyT-Xz-uxU"/>
+                                <exclude reference="Ml9-BK-Pwn"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="fsn-j2-vKV"/>
+                                <include reference="Paa-xc-Vdh"/>
+                                <include reference="XVD-K2-c5g"/>
+                                <include reference="ldi-0f-68M"/>
+                                <include reference="4kV-7g-Vmt"/>
+                                <include reference="0RN-1d-vQn"/>
+                                <include reference="UKa-kj-ipz"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="9Og-Bx-d1n"/>
+                                <include reference="Ji4-wB-MpE"/>
+                                <include reference="LJm-4u-tXc"/>
+                                <include reference="VCf-ON-VS1"/>
+                                <include reference="94Y-Os-aWo"/>
+                                <include reference="P9R-8R-Qca"/>
+                                <include reference="zsE-1e-X48"/>
+                                <include reference="Aai-3Z-mYU"/>
+                                <include reference="ej0-Vz-2LC"/>
+                                <include reference="f1V-MO-ulX"/>
+                                <include reference="QmH-Bv-p7Z"/>
+                                <include reference="TEL-Ac-ZgN"/>
+                                <include reference="mZQ-2z-ahP"/>
+                                <include reference="WyF-Vi-cac"/>
+                                <include reference="hG4-hq-tNO"/>
+                                <include reference="vUx-Km-HJ5"/>
+                                <include reference="50u-gq-sQ5"/>
+                                <include reference="pyT-Xz-uxU"/>
+                                <include reference="Ml9-BK-Pwn"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="ringLabel" destination="0RN-1d-vQn" id="Dz7-Z0-Lxq"/>
+                        <outlet property="stopLabel" destination="UKa-kj-ipz" id="KBe-wI-J5K"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="460.5" y="521.25"/>
         </scene>
     </scenes>
 </document>

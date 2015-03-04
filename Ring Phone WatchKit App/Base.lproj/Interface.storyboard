@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7519.1" systemVersion="14C109" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7515.2" systemVersion="14C109" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7513.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7512"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
     </dependencies>
     <scenes>
@@ -12,13 +12,23 @@
                     <items>
                         <label width="175" alignment="center" text="Ring My Phone" textAlignment="center" id="aJJ-tH-laQ"/>
                         <separator alignment="left" id="rB4-Ci-rcy"/>
-                        <label width="136" height="33" alignment="left" id="Hb6-Fx-UCu"/>
                         <button width="1" alignment="center" verticalAlignment="center" title="Ring" id="iC5-pD-ndI">
-                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <fontDescription key="font" type="system" pointSize="20"/>
+                            <connections>
+                                <action selector="ringButtonPressed" destination="AgC-eL-Hgc" id="jPa-q6-y79"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="center" verticalAlignment="center" hidden="YES" title="Stop" enabled="NO" id="Mhe-nb-Rf2">
+                            <fontDescription key="font" type="system" pointSize="20"/>
+                            <connections>
+                                <action selector="stopButtonPressed" destination="AgC-eL-Hgc" id="bmg-Rk-7Uk"/>
+                            </connections>
                         </button>
                     </items>
+                    <connections>
+                        <outlet property="ringButton" destination="iC5-pD-ndI" id="f8S-Kl-LmB"/>
+                        <outlet property="stopButton" destination="Mhe-nb-Rf2" id="TpO-X6-xYd"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="439" y="417"/>

@@ -11,6 +11,11 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
+    
+    @IBOutlet weak var ringButton: WKInterfaceButton!
+    @IBOutlet weak var stopButton: WKInterfaceButton!
+    
+    
 
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
@@ -26,6 +31,18 @@ class InterfaceController: WKInterfaceController {
     override func didDeactivate() {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
+    }
+    
+    @IBAction func ringButtonPressed() {
+        ringButton.setHidden(true)
+        stopButton.setEnabled(true)
+        stopButton.setHidden(false)
+    }
+    
+    @IBAction func stopButtonPressed() {
+        stopButton.setHidden(true)
+        ringButton.setEnabled(true)
+        ringButton.setHidden(false)
     }
 
 }

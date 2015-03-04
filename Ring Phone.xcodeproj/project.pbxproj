@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D183A851AA7463A000A90B3 /* telephone-ring-02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6D183A841AA7463A000A90B3 /* telephone-ring-02.mp3 */; };
 		8B28240A1AA32BF700F78879 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2824091AA32BF700F78879 /* AppDelegate.swift */; };
 		8B28240C1AA32BF700F78879 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B28240B1AA32BF700F78879 /* ViewController.swift */; };
 		8B28240F1AA32BF700F78879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B28240D1AA32BF700F78879 /* Main.storyboard */; };
@@ -60,6 +61,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6D183A841AA7463A000A90B3 /* telephone-ring-02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "telephone-ring-02.mp3"; sourceTree = "<group>"; };
 		8B2824041AA32BF700F78879 /* Ring Phone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ring Phone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2824081AA32BF700F78879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B2824091AA32BF700F78879 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 		8B2824071AA32BF700F78879 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6D183A841AA7463A000A90B3 /* telephone-ring-02.mp3 */,
 				8B2824081AA32BF700F78879 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -327,6 +330,7 @@
 				8B28240F1AA32BF700F78879 /* Main.storyboard in Resources */,
 				8B2824141AA32BF700F78879 /* LaunchScreen.xib in Resources */,
 				8B2824111AA32BF700F78879 /* Images.xcassets in Resources */,
+				6D183A851AA7463A000A90B3 /* telephone-ring-02.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,6 +645,7 @@
 				8B2824251AA32BF700F78879 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B2824261AA32BF700F78879 /* Build configuration list for PBXNativeTarget "Ring PhoneTests" */ = {
 			isa = XCConfigurationList;
@@ -649,6 +654,7 @@
 				8B2824281AA32BF700F78879 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B2824461AA32C1C00F78879 /* Build configuration list for PBXNativeTarget "Ring Phone WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -657,6 +663,7 @@
 				8B2824481AA32C1C00F78879 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B2824491AA32C1C00F78879 /* Build configuration list for PBXNativeTarget "Ring Phone WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -665,6 +672,7 @@
 				8B28244B1AA32C1C00F78879 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

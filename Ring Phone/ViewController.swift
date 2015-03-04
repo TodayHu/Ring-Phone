@@ -19,6 +19,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         ringLabel.hidden = true
         stopLabel.hidden = true
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("didRing"),
+            name: "watchRingButtonPressed",
+            object: nil)
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("didStop"),
+            name: "watchStopButtonPressed",
+            object: nil)
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,6 +34,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func didRing() {
+        ringLabel.hidden = false
+    }
+    
+    func didStop() {
+        stopLabel.hidden = false
+    }
+    
+    
 
 }
 

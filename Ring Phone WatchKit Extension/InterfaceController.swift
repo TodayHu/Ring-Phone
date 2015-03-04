@@ -37,12 +37,19 @@ class InterfaceController: WKInterfaceController {
         ringButton.setHidden(true)
         stopButton.setEnabled(true)
         stopButton.setHidden(false)
+        
+        var dict = ["action-type": "ring"]
+        
+        WKInterfaceController .openParentApplication(dict, reply: nil)
     }
     
     @IBAction func stopButtonPressed() {
         stopButton.setHidden(true)
         ringButton.setEnabled(true)
         ringButton.setHidden(false)
+        
+        var dict = ["action-type": "stop"]
+        
+        WKInterfaceController .openParentApplication(dict, reply: nil)
     }
-
 }

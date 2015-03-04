@@ -99,6 +99,15 @@
                                 <exclude reference="UKa-kj-ipz"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="QmH-Bv-p7Z"/>
+                                <exclude reference="TEL-Ac-ZgN"/>
+                                <exclude reference="mZQ-2z-ahP"/>
+                                <exclude reference="Ml9-BK-Pwn"/>
+                                <exclude reference="50u-gq-sQ5"/>
+                                <exclude reference="pyT-Xz-uxU"/>
+                                <exclude reference="WyF-Vi-cac"/>
+                                <exclude reference="hG4-hq-tNO"/>
+                                <exclude reference="vUx-Km-HJ5"/>
                                 <exclude reference="9Og-Bx-d1n"/>
                                 <exclude reference="Ji4-wB-MpE"/>
                                 <exclude reference="LJm-4u-tXc"/>
@@ -109,15 +118,6 @@
                                 <exclude reference="Aai-3Z-mYU"/>
                                 <exclude reference="ej0-Vz-2LC"/>
                                 <exclude reference="f1V-MO-ulX"/>
-                                <exclude reference="QmH-Bv-p7Z"/>
-                                <exclude reference="TEL-Ac-ZgN"/>
-                                <exclude reference="mZQ-2z-ahP"/>
-                                <exclude reference="WyF-Vi-cac"/>
-                                <exclude reference="hG4-hq-tNO"/>
-                                <exclude reference="vUx-Km-HJ5"/>
-                                <exclude reference="50u-gq-sQ5"/>
-                                <exclude reference="pyT-Xz-uxU"/>
-                                <exclude reference="Ml9-BK-Pwn"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -131,6 +131,15 @@
                                 <include reference="UKa-kj-ipz"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="QmH-Bv-p7Z"/>
+                                <include reference="TEL-Ac-ZgN"/>
+                                <include reference="mZQ-2z-ahP"/>
+                                <include reference="Ml9-BK-Pwn"/>
+                                <include reference="50u-gq-sQ5"/>
+                                <include reference="pyT-Xz-uxU"/>
+                                <include reference="WyF-Vi-cac"/>
+                                <include reference="hG4-hq-tNO"/>
+                                <include reference="vUx-Km-HJ5"/>
                                 <exclude reference="9Og-Bx-d1n"/>
                                 <include reference="Ji4-wB-MpE"/>
                                 <include reference="LJm-4u-tXc"/>
@@ -141,15 +150,6 @@
                                 <include reference="Aai-3Z-mYU"/>
                                 <include reference="ej0-Vz-2LC"/>
                                 <include reference="f1V-MO-ulX"/>
-                                <include reference="QmH-Bv-p7Z"/>
-                                <include reference="TEL-Ac-ZgN"/>
-                                <include reference="mZQ-2z-ahP"/>
-                                <include reference="WyF-Vi-cac"/>
-                                <include reference="hG4-hq-tNO"/>
-                                <include reference="vUx-Km-HJ5"/>
-                                <include reference="50u-gq-sQ5"/>
-                                <include reference="pyT-Xz-uxU"/>
-                                <include reference="Ml9-BK-Pwn"/>
                             </mask>
                         </variation>
                     </view>

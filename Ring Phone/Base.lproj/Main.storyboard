@@ -21,13 +21,13 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap on the Watch button" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fsn-j2-vKV">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Paa-xc-Vdh">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="53" y="-19" width="0.0" height="0.0"/>
@@ -36,19 +36,19 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="And the phone rings !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldi-0f-68M">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ring Button pressed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0RN-1d-vQn">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stop Button pressed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UKa-kj-ipz">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AxA-S3-evW">
@@ -166,48 +166,82 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 1.0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpy-VA-pYp">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created by Andrei Joghiu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tir-TX-gy9">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Icon created by Mayene de La Cruz" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bPZ-v1-RBe">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="from the Noun Project" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6sH-Y3-CJq">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="bPZ-v1-RBe" firstAttribute="leading" secondItem="ebd-ic-vHU" secondAttribute="leadingMargin" id="DsS-kx-Tu7"/>
+                            <constraint firstItem="bPZ-v1-RBe" firstAttribute="top" secondItem="Tir-TX-gy9" secondAttribute="bottom" constant="70" id="J41-35-Tnm"/>
                             <constraint firstItem="Tir-TX-gy9" firstAttribute="trailing" secondItem="ebd-ic-vHU" secondAttribute="trailingMargin" id="KYt-nX-iTk"/>
                             <constraint firstAttribute="centerX" secondItem="hpy-VA-pYp" secondAttribute="centerX" id="S5d-v2-Thf"/>
                             <constraint firstItem="Tir-TX-gy9" firstAttribute="leading" secondItem="ebd-ic-vHU" secondAttribute="leadingMargin" id="SpE-fB-Hq0"/>
+                            <constraint firstItem="6sH-Y3-CJq" firstAttribute="leading" secondItem="ebd-ic-vHU" secondAttribute="leadingMargin" id="TQ8-Qu-OfP"/>
                             <constraint firstAttribute="centerY" secondItem="hpy-VA-pYp" secondAttribute="centerY" id="WOa-ow-ErE"/>
+                            <constraint firstItem="bPZ-v1-RBe" firstAttribute="trailing" secondItem="ebd-ic-vHU" secondAttribute="trailingMargin" id="cWU-qo-rmr"/>
+                            <constraint firstItem="6sH-Y3-CJq" firstAttribute="trailing" secondItem="ebd-ic-vHU" secondAttribute="trailingMargin" id="oCL-gG-jgV"/>
+                            <constraint firstItem="6sH-Y3-CJq" firstAttribute="top" secondItem="bPZ-v1-RBe" secondAttribute="bottom" constant="10" id="xXx-2y-oSM"/>
                             <constraint firstItem="Tir-TX-gy9" firstAttribute="top" secondItem="hpy-VA-pYp" secondAttribute="bottom" constant="50" id="yxh-3d-r9p"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="hpy-VA-pYp"/>
                                 <exclude reference="Tir-TX-gy9"/>
+                                <exclude reference="bPZ-v1-RBe"/>
+                                <exclude reference="6sH-Y3-CJq"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="S5d-v2-Thf"/>
+                                <exclude reference="WOa-ow-ErE"/>
                                 <exclude reference="KYt-nX-iTk"/>
                                 <exclude reference="SpE-fB-Hq0"/>
                                 <exclude reference="yxh-3d-r9p"/>
-                                <exclude reference="S5d-v2-Thf"/>
-                                <exclude reference="WOa-ow-ErE"/>
+                                <exclude reference="DsS-kx-Tu7"/>
+                                <exclude reference="J41-35-Tnm"/>
+                                <exclude reference="cWU-qo-rmr"/>
+                                <exclude reference="TQ8-Qu-OfP"/>
+                                <exclude reference="oCL-gG-jgV"/>
+                                <exclude reference="xXx-2y-oSM"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="hpy-VA-pYp"/>
                                 <include reference="Tir-TX-gy9"/>
+                                <include reference="bPZ-v1-RBe"/>
+                                <include reference="6sH-Y3-CJq"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="S5d-v2-Thf"/>
+                                <include reference="WOa-ow-ErE"/>
                                 <include reference="KYt-nX-iTk"/>
                                 <include reference="SpE-fB-Hq0"/>
                                 <include reference="yxh-3d-r9p"/>
-                                <include reference="S5d-v2-Thf"/>
-                                <include reference="WOa-ow-ErE"/>
+                                <include reference="DsS-kx-Tu7"/>
+                                <include reference="J41-35-Tnm"/>
+                                <include reference="cWU-qo-rmr"/>
+                                <include reference="TQ8-Qu-OfP"/>
+                                <include reference="oCL-gG-jgV"/>
+                                <include reference="xXx-2y-oSM"/>
                             </mask>
                         </variation>
                     </view>

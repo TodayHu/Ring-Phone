@@ -96,21 +96,21 @@
                                 <exclude reference="AxA-S3-evW"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="QmH-Bv-p7Z"/>
+                                <exclude reference="TEL-Ac-ZgN"/>
+                                <exclude reference="mZQ-2z-ahP"/>
+                                <exclude reference="tIz-kq-BjK"/>
+                                <exclude reference="WyF-Vi-cac"/>
+                                <exclude reference="hG4-hq-tNO"/>
+                                <exclude reference="vUx-Km-HJ5"/>
                                 <exclude reference="FEZ-Qb-52V"/>
                                 <exclude reference="P9R-8R-Qca"/>
                                 <exclude reference="zsE-1e-X48"/>
                                 <exclude reference="Aai-3Z-mYU"/>
                                 <exclude reference="ej0-Vz-2LC"/>
                                 <exclude reference="f1V-MO-ulX"/>
-                                <exclude reference="QmH-Bv-p7Z"/>
-                                <exclude reference="TEL-Ac-ZgN"/>
-                                <exclude reference="mZQ-2z-ahP"/>
-                                <exclude reference="WyF-Vi-cac"/>
-                                <exclude reference="hG4-hq-tNO"/>
-                                <exclude reference="vUx-Km-HJ5"/>
                                 <exclude reference="QZZ-Ws-dwM"/>
                                 <exclude reference="jdo-to-fHg"/>
-                                <exclude reference="tIz-kq-BjK"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -123,21 +123,21 @@
                                 <include reference="AxA-S3-evW"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="QmH-Bv-p7Z"/>
+                                <include reference="TEL-Ac-ZgN"/>
+                                <include reference="mZQ-2z-ahP"/>
+                                <include reference="tIz-kq-BjK"/>
+                                <include reference="WyF-Vi-cac"/>
+                                <include reference="hG4-hq-tNO"/>
+                                <include reference="vUx-Km-HJ5"/>
                                 <include reference="FEZ-Qb-52V"/>
                                 <include reference="P9R-8R-Qca"/>
                                 <include reference="zsE-1e-X48"/>
                                 <include reference="Aai-3Z-mYU"/>
                                 <include reference="ej0-Vz-2LC"/>
                                 <include reference="f1V-MO-ulX"/>
-                                <include reference="QmH-Bv-p7Z"/>
-                                <include reference="TEL-Ac-ZgN"/>
-                                <include reference="mZQ-2z-ahP"/>
-                                <include reference="WyF-Vi-cac"/>
-                                <include reference="hG4-hq-tNO"/>
-                                <include reference="vUx-Km-HJ5"/>
                                 <include reference="QZZ-Ws-dwM"/>
                                 <include reference="jdo-to-fHg"/>
-                                <include reference="tIz-kq-BjK"/>
                             </mask>
                         </variation>
                     </view>
@@ -149,7 +149,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1378.5" y="521.25"/>
+            <point key="canvasLocation" x="1260" y="521.25"/>
         </scene>
         <!--About-->
         <scene sceneID="BO3-UK-98h">
@@ -160,6 +160,7 @@
                         <viewControllerLayoutGuide type="bottom" id="vfq-HB-Kjl"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ebd-ic-vHU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 1.0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpy-VA-pYp">
@@ -189,11 +190,11 @@
                                 <exclude reference="Tir-TX-gy9"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="S5d-v2-Thf"/>
-                                <exclude reference="WOa-ow-ErE"/>
                                 <exclude reference="KYt-nX-iTk"/>
                                 <exclude reference="SpE-fB-Hq0"/>
                                 <exclude reference="yxh-3d-r9p"/>
+                                <exclude reference="S5d-v2-Thf"/>
+                                <exclude reference="WOa-ow-ErE"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -202,11 +203,11 @@
                                 <include reference="Tir-TX-gy9"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="S5d-v2-Thf"/>
-                                <include reference="WOa-ow-ErE"/>
                                 <include reference="KYt-nX-iTk"/>
                                 <include reference="SpE-fB-Hq0"/>
                                 <include reference="yxh-3d-r9p"/>
+                                <include reference="S5d-v2-Thf"/>
+                                <include reference="WOa-ow-ErE"/>
                             </mask>
                         </variation>
                     </view>

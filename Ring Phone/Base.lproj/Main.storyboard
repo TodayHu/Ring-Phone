@@ -210,17 +210,17 @@
                                 <exclude reference="6sH-Y3-CJq"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="S5d-v2-Thf"/>
-                                <exclude reference="WOa-ow-ErE"/>
+                                <exclude reference="TQ8-Qu-OfP"/>
+                                <exclude reference="oCL-gG-jgV"/>
+                                <exclude reference="xXx-2y-oSM"/>
                                 <exclude reference="KYt-nX-iTk"/>
                                 <exclude reference="SpE-fB-Hq0"/>
                                 <exclude reference="yxh-3d-r9p"/>
                                 <exclude reference="DsS-kx-Tu7"/>
                                 <exclude reference="J41-35-Tnm"/>
                                 <exclude reference="cWU-qo-rmr"/>
-                                <exclude reference="TQ8-Qu-OfP"/>
-                                <exclude reference="oCL-gG-jgV"/>
-                                <exclude reference="xXx-2y-oSM"/>
+                                <exclude reference="S5d-v2-Thf"/>
+                                <exclude reference="WOa-ow-ErE"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -231,17 +231,17 @@
                                 <include reference="6sH-Y3-CJq"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="S5d-v2-Thf"/>
-                                <include reference="WOa-ow-ErE"/>
+                                <include reference="TQ8-Qu-OfP"/>
+                                <include reference="oCL-gG-jgV"/>
+                                <include reference="xXx-2y-oSM"/>
                                 <include reference="KYt-nX-iTk"/>
                                 <include reference="SpE-fB-Hq0"/>
                                 <include reference="yxh-3d-r9p"/>
                                 <include reference="DsS-kx-Tu7"/>
                                 <include reference="J41-35-Tnm"/>
                                 <include reference="cWU-qo-rmr"/>
-                                <include reference="TQ8-Qu-OfP"/>
-                                <include reference="oCL-gG-jgV"/>
-                                <include reference="xXx-2y-oSM"/>
+                                <include reference="S5d-v2-Thf"/>
+                                <include reference="WOa-ow-ErE"/>
                             </mask>
                         </variation>
                     </view>

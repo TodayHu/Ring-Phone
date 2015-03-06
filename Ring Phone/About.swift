@@ -11,11 +11,7 @@ import UIKit
 class About: UIViewController {
 
     @IBOutlet var aboutLabel: UILabel!
-    
-//    let version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
-//    let version = NSBundle.mainBundle().infoDictionary!["CFBundleShortVersionString"]
-    
-
+    @IBOutlet weak var mailButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,6 +38,15 @@ class About: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    
+    @IBAction func mailButtonPressed(sender: UIButton) {
+        
+        let email = "raiden007@gmail.com"
+        let url = NSURL(string: "mailto:\(email)")
+        UIApplication.sharedApplication().openURL(url!)
+        
+    }
     
 
 }

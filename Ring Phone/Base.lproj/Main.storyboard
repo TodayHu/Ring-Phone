@@ -154,7 +154,7 @@
         <!--About-->
         <scene sceneID="BO3-UK-98h">
             <objects>
-                <viewController id="YV8-hZ-udg" sceneMemberID="viewController">
+                <viewController id="YV8-hZ-udg" customClass="About" customModule="Ring_Phone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fIq-Ry-fMy"/>
                         <viewControllerLayoutGuide type="bottom" id="vfq-HB-Kjl"/>
@@ -246,6 +246,9 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="About" id="DcQ-x8-e3x"/>
+                    <connections>
+                        <outlet property="aboutLabel" destination="hpy-VA-pYp" id="MwV-5P-icE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yhh-wJ-3rQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

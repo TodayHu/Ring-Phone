@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         ringLabel.hidden = true
         stopLabel.hidden = true
         
+        
         if var filePath = NSBundle.mainBundle().pathForResource("telephone-ring-02", ofType: "mp3") {
             var filePathUrl = NSURL.fileURLWithPath(filePath)
             audioPlayer = AVAudioPlayer(contentsOfURL: filePathUrl, error: nil)

@@ -11,27 +11,24 @@
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Ring_Phone_WatchKit_App" customModuleProvider="target">
                     <items>
                         <label width="175" alignment="center" text="Ring My Phone" textAlignment="center" id="aJJ-tH-laQ"/>
-                        <separator alignment="left" id="rB4-Ci-rcy"/>
-                        <button width="1" alignment="center" verticalAlignment="center" title="Ring" id="iC5-pD-ndI">
-                            <fontDescription key="font" type="system" pointSize="20"/>
+                        <separator alignment="left" id="qxZ-7Q-zCT"/>
+                        <button width="1" alignment="left" title="Ring" id="TaA-zu-Ek4">
+                            <color key="titleColor" red="0.090196080509999998" green="0.023529414089999999" blue="0.031372550870000002" alpha="1" colorSpace="deviceRGB"/>
+                            <color key="backgroundColor" red="0.082336197959999996" green="1" blue="0.018172676910000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" pointSize="14"/>
                             <connections>
-                                <action selector="ringButtonPressed" destination="AgC-eL-Hgc" id="jPa-q6-y79"/>
+                                <action selector="ringButtonPressed" destination="AgC-eL-Hgc" id="zck-RU-zUw"/>
                             </connections>
                         </button>
-                        <button width="1" alignment="center" verticalAlignment="center" hidden="YES" title="Stop" enabled="NO" id="Mhe-nb-Rf2">
-                            <fontDescription key="font" type="system" pointSize="20"/>
-                            <connections>
-                                <action selector="stopButtonPressed" destination="AgC-eL-Hgc" id="bmg-Rk-7Uk"/>
-                            </connections>
-                        </button>
+                        <imageView width="80" height="80" alignment="center" image="frame0" id="FsZ-xQ-6vz"/>
                     </items>
                     <connections>
-                        <outlet property="ringButton" destination="iC5-pD-ndI" id="f8S-Kl-LmB"/>
-                        <outlet property="stopButton" destination="Mhe-nb-Rf2" id="TpO-X6-xYd"/>
+                        <outlet property="ringAnimation" destination="FsZ-xQ-6vz" id="9Yj-8j-Ddb"/>
+                        <outlet property="ringButton" destination="TaA-zu-Ek4" id="M6e-Cl-IPB"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="439" y="417"/>
+            <point key="canvasLocation" x="439" y="375"/>
         </scene>
     </scenes>
 </document>

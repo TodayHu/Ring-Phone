@@ -11,8 +11,8 @@ import AVFoundation
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var ringLabel: UILabel!
-    @IBOutlet weak var stopLabel: UILabel!
+    @IBOutlet weak var aboutButton: UIButton!
+
     
     var audioPlayer:AVAudioPlayer!
     
@@ -20,8 +20,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        ringLabel.hidden = true
-        stopLabel.hidden = true
         
         
         if var filePath = NSBundle.mainBundle().pathForResource("telephone-ring-02", ofType: "mp3") {
@@ -46,7 +44,6 @@ class ViewController: UIViewController {
     }
 
     func didRing() {
-        ringLabel.hidden = false
         audioPlayer.currentTime = 0.0
         audioPlayer.play()
         
@@ -54,10 +51,11 @@ class ViewController: UIViewController {
     }
     
     func didStop() {
-        stopLabel.hidden = false
         audioPlayer.stop()
     }
     
+    @IBAction func aboutButtonPressed(sender: UIButton) {
+    }
     
 
 }

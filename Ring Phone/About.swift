@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Crashlytics
 
 class About: UIViewController {
 
@@ -42,9 +43,12 @@ class About: UIViewController {
     
     @IBAction func mailButtonPressed(sender: UIButton) {
         
-        let email = "raiden007@gmail.com"
-        let url = NSURL(string: "mailto:\(email)")
-        UIApplication.sharedApplication().openURL(url!)
+//        let email = "raiden007@gmail.com"
+//        let url = NSURL(string: "mailto:\(email)")
+//        UIApplication.sharedApplication().openURL(url!)
+        
+        // Crashlytics crash
+        Crashlytics.sharedInstance().crash()
         
     }
     

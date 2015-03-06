@@ -21,6 +21,8 @@
 		8B2824401AA32C1C00F78879 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B28243E1AA32C1C00F78879 /* Interface.storyboard */; };
 		8B2824421AA32C1C00F78879 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2824411AA32C1C00F78879 /* Images.xcassets */; };
 		8B2824451AA32C1C00F78879 /* Ring Phone WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8B28242D1AA32C1C00F78879 /* Ring Phone WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8B61B9851AAA21AB0039D074 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B61B9831AAA21AB0039D074 /* Crashlytics.framework */; };
+		8B61B9861AAA21AB0039D074 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B61B9841AAA21AB0039D074 /* Fabric.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,8 @@
 		8B28243D1AA32C1C00F78879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B28243F1AA32C1C00F78879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		8B2824411AA32C1C00F78879 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8B61B9831AAA21AB0039D074 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		8B61B9841AAA21AB0039D074 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B61B9851AAA21AB0039D074 /* Crashlytics.framework in Frameworks */,
+				8B61B9861AAA21AB0039D074 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +125,8 @@
 				8B28242E1AA32C1C00F78879 /* Ring Phone WatchKit Extension */,
 				8B28243B1AA32C1C00F78879 /* Ring Phone WatchKit App */,
 				8B2824051AA32BF700F78879 /* Products */,
+				8B61B9831AAA21AB0039D074 /* Crashlytics.framework */,
+				8B61B9841AAA21AB0039D074 /* Fabric.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -478,7 +486,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;

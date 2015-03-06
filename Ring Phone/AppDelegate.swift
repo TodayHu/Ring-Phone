@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Fabric
+import Crashlytics
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        Crashlytics.sharedInstance().debugMode = true
+        Crashlytics .startWithAPIKey("f3c99599d7506e04141126522dbe798de9609d17")
         return true
     }
 
@@ -63,6 +67,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
        
     
     }
+    
+
+    
+    
 
 
 }

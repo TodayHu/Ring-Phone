@@ -8,6 +8,7 @@
 
 import UIKit
 import AVFoundation
+import Crashlytics
 
 class ViewController: UIViewController {
 
@@ -56,6 +57,14 @@ class ViewController: UIViewController {
     
     @IBAction func aboutButtonPressed(sender: UIButton) {
     }
+    
+    @IBAction func crashButtonPressed(sender: UIButton) {
+        
+        // Crashlytics crash
+        Crashlytics.sharedInstance().crash()
+        
+    }
+    
     
 
 }

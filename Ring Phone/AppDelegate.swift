@@ -49,7 +49,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let ringInfo : NSDictionary = userInfo!
         
-        var cumvreitu : NSString! = ringInfo.objectForKey("action-type") as! NSString
+        var cumvreitu : NSString! = ringInfo.objectForKey("action-type") as NSString
         
         let eEgal : Bool = cumvreitu!.isEqualToString("ring")
         

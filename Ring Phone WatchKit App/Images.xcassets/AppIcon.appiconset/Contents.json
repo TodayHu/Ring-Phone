@@ -43,7 +43,7 @@
       "idiom" : "watch",
       "scale" : "2x",
       "filename" : "Watch Home Screen@3x.png",
-      "role" : "appLauncher",
+      "role" : "longLook",
       "subtype" : "42mm"
     },
     {

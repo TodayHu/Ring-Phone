@@ -78,6 +78,7 @@
       "size" : "44x44",
       "idiom" : "watch",
       "scale" : "2x",
+      "filename" : "Watch Home Screen@3x.png",
       "role" : "longLook",
       "subtype" : "42mm"
     },
@@ -96,15 +97,6 @@
       "filename" : "Watch Short Look@3x.png",
       "role" : "quickLook",
       "subtype" : "42mm"
-    },
-    {
-      "role" : "appLauncher",
-      "size" : "44x44",
-      "idiom" : "watch",
-      "filename" : "Watch Home Screen@3x.png",
-      "subtype" : "42mm",
-      "unassigned" : true,
-      "scale" : "2x"
     }
   ],
   "info" : {

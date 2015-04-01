@@ -310,6 +310,7 @@
 					};
 					8B28242C1AA32C1C00F78879 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = N4ZWHQ2X3Z;
 					};
 					8B2824361AA32C1C00F78879 = {
 						CreatedOnToolsVersion = 6.3;
@@ -651,6 +652,7 @@
 		8B28244A1AA32C1C00F78879 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -666,6 +668,7 @@
 		8B28244B1AA32C1C00F78879 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Ring Phone WatchKit Extension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
